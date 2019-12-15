@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for child in children %}
+<h1>{{ child.id }}</h1>
+{% endfor %}
+
+{% for parent in parents %}
+<h1>{{ parent.id }}</h1>
+{% endfor %}
+</body>
+</html>
